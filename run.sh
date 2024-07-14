@@ -7,7 +7,7 @@ npm install
 npx tailwindcss --input "$INPUT_INPUT" --output "$INPUT_OUTPUT" "$INPUT_PARAMS"
 
 git add --force src/output.css
-git config user.name "GitHub"
-git config user.email "noreply@github.com"
+git config user.name "PstasDev"
+git config user.email "noreply@botond.eu"
 git diff-index --quiet HEAD || git commit -sm "tailwindcss-update"
 git push
