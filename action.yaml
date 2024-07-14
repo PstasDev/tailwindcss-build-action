@@ -1,9 +1,9 @@
-name: 'Generate Tailwind CSS'
-description: 'Creates Tailwind CSS CSS Files'
-author: 'Zoey <zoey@z0ey.de>'
+name: 'TailwindCSS build on demand'
+description: 'Installes then builds tailwindcss via GitHub Actions for example for GitHub Pages'
+author: Balla Botond
 branding:
   color: green
-  icon: arrow-down-circle
+  icon: 'code'
 inputs:
   input:
     description: 'path of input.css'
