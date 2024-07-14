@@ -1,7 +1,7 @@
 # tailwindcss-update
 
 ```yaml
-name: tailwindcss-update
+name: TailwindCSS Build
 
 on:
   push:
