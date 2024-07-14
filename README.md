@@ -16,11 +16,11 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: update tailwindcss
+      - name: Building output.css
         uses: PstasDev/tailwindcss-build-action@main
         with:
-          input: src/input.css
-          output: src/output.css
+          input: static/src/input.css
+          output: static/output.css
           params: "--minify"
           
       - name: push changes
