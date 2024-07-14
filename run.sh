@@ -9,6 +9,6 @@ npx tailwindcss --input "$INPUT_INPUT" --output "$INPUT_OUTPUT" "$INPUT_PARAMS"
 git config --global --add safe.directory /github/workspace
 git add --force src/output.css
 git config user.name "PstasDev"
-git config user.email "noreply@botond.eu"
+git config user.email "contact@botond.eu"
 git diff-index --quiet HEAD || git commit -sm "tailwindcss-update"
 git push
